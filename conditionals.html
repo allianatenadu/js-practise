@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html> 
+
+    <head>
+        <meta charset="utf-8"/>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <h1>Javascript Week 2</h1>
+        <script src="conditionals.js"></script>
+        <script>
+            let colleagues = ["Alliana","Brieana","Carolina"];
+
+for (let i = 0; i < colleagues.length; i++) {
+        console.log("Comparing the Teandu sisters on their firstnames:")
+   // Getting the first letter of the name
+    let firstLetter = colleagues[i][0]; 
+    if (firstLetter === "S") {
+        console.log(colleagues[i] + " starts with 'A' or 'B'.");
+    } else if (firstLetter === "P") {
+        console.log(colleagues[i] + " starts with 'A'.");
+    } else {
+        console.log(colleagues[i] + " doesn't start with 'C' or 'P'.");
+    }
+
+}
+        </script>
+    </body>
+</html>

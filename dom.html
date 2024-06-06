@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>DOM</title>
+
+    </head>
+    <body>
+        <img id="picture"  src="images/pexels-brenoanp-442535-1136575.jpg" style="width:200px; height:200px;">
+        <button id="btn" onclick="click()">Click Here</button>
+        
+        <script>
+         let pic = document.getElementById("picture");
+         pic.src = "images/pexels-jill-wellington-1638660-40192.jpg";
+         pic.style.width = '200px';
+         pic.style.height = '200px';
+
+          function click(){
+        alert('You have cliked to no more!');}
+        document.getElementById("btn").onclick = click;
+        
+        
+        </script>
+    </body>
+</html>
